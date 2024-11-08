@@ -49,7 +49,7 @@ function* globalBindings(m) {
 class Root extends Model {
   constructor() {
     super()
-    this.name = "tosh.sb2"
+    this.name = "tosh.sb3"
     this.project = Project.create()
     this.active = null
   }
