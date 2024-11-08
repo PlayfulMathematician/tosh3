@@ -70,7 +70,7 @@ class ToshApp extends App {
   }
 
   openProject() {
-    rt.chooseFile(".sb2").then(file => {
+    rt.chooseFile(".sb3").then(file => {
       this.model.name = path.basename(file.name)
       Project.loadZipFile(file).then(stage => {
         this.model.project = stage
